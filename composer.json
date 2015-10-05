@@ -1,0 +1,26 @@
+{
+    "authors": [
+        {
+            "name": "Daniele Sottile",
+            "email": "daniele.sott@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "*",
+        "slim/extras": "*",
+        "slim/middleware": "*",
+        "monolog/monolog": "*",
+        "j4mie/paris": "*",
+        "flynsarmy/slim-monolog": "*"
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    },
+    "autoload": {
+        "psr-4": {
+            "LearnEat\\": "src/",
+            "LearnEat\\Routes\\": "src/routes/"
+        }
+    }
+}
